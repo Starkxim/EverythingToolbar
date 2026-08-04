@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Másolás</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Fájlnév másolása a vágólapra</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Teljes elérési út másolása a vágólapra</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Fájlmásolás sikertelen.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Nem sikerült a fájlnevet másolni.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Az útvonalmásolás sikertelen.</value>

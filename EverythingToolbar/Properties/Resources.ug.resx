@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>كۆچۈرۈش</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>ھۆججەت نامىنى كېسىش تاختىسىغا كۆچۈرۈش</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>تولۇق يولىنى كېسىش تاختىسىغا كۆچۈرۈش</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>ھۆججەتنى كۆچۈرەلمىدى.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>ھۆججەت نامىنى كۆچۈرەلمىدى.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>يولىنى كۆچۈرەلمىدى.</value>

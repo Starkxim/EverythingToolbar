@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Αντιγραφή</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Αντιγραφή ονόματος αρχείου στο πρόχειρο</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Αντιγραφή πλήρους διαδρομής στο πρόχειρο</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Η αντιγραφή αρχείου απέτυχε.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Αποτυχία αντιγραφής του ονόματος αρχείου.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Αποτυχία αντιγραφής διαδρομής.</value>

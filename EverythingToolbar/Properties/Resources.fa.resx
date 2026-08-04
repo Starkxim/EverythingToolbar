@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>رونوشت</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>رونوشت نام پرونده به بریده‌دان</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>رونوشت مسیر کامل به بریده‌دان</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>رونوشت پرونده‌ها شکست خورد.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>رونوشت نام پرونده ناموفق بود.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>رونوشت مسیر شکست خورد.</value>

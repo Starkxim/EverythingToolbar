@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Копіювати</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Скопіювати ім’я файлу до буфера обміну</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Скопіювати повний шлях до буфера обміну</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Не вдалося скопіювати файл.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Не вдалося скопіювати ім’я файлу.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Не вдалося скопіювати шлях.</value>

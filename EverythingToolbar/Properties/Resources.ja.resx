@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>コピー</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>ファイル名をクリップボードにコピー</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>完全なパスをクリップボードにコピー</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>ファイルのコピーに失敗しました。</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>ファイル名をコピーできませんでした。</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>パスのコピーに失敗しました。</value>

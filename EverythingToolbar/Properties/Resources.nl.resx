@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopiëren</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Bestandsnaam naar het klembord kopiëren</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Volledig pad naar het klembord kopiëren</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Kan bestand niet kopiëren.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Kan de bestandsnaam niet kopiëren.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Kan pad niet kopiëren.</value>

@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopieren</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Dateinamen in die Zwischenablage kopieren</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Vollständigen Pfad in die Zwischenablage kopieren</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Das Kopieren der Datei ist fehlgeschlagen.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Dateiname konnte nicht kopiert werden.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Das Kopieren des Pfades ist fehlgeschlagen.</value>

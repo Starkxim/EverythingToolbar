@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopírovat</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Kopírovat název souboru do schránky</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Kopírovat celou cestu do schránky</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Kopírování souboru se nezdařilo.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Nepodařilo se zkopírovat název souboru.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Kopírování cesty se nezdařilo.</value>

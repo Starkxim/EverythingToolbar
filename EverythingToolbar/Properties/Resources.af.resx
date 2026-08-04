@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Copy</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Kopieer lêernaam na knipbord</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Kopieer volledige pad na knipbord</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Failed to copy file.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Kon nie die lêernaam kopieer nie.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Failed to copy path.</value>

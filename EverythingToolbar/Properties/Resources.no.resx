@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopier</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Kopier filnavnet til utklippstavlen</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Kopier hele filbanen til utklippstavlen</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Kopiering feilet.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Kunne ikke kopiere filnavnet.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Kunne ikke kopiere banen.</value>

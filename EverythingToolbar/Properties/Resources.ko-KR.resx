@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>복사</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>파일 이름을 클립보드에 복사</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>전체 경로를 클립보드에 복사</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>파일 복사에 실패했습니다.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>파일 이름을 복사하지 못했습니다.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>경로 복사에 실패했습니다.</value>

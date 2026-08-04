@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopyala</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Dosya adını panoya kopyala</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Tam yolu panoya kopyala</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Dosya kopyalama başarısız.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Dosya adı kopyalanamadı.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Klasör yolu kopyalama başarısız.</value>

@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Copiere</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Copiază numele fișierului în clipboard</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Copiază calea completă în clipboard</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Shift</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Nu s-a putut copia numele fișierului.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Win</value>

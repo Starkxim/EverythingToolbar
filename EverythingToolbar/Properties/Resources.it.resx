@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Copia</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>Copia il nome del file negli appunti</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>Copia il percorso completo negli appunti</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>Copia del file fallita.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>Impossibile copiare il nome del file.</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>Copia del percorso fallita.</value>

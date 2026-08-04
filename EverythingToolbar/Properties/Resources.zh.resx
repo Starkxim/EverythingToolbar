@@ -126,6 +126,9 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>複製</value>
   </data>
+  <data name="ContextMenuCopyFileName" xml:space="preserve">
+    <value>複製檔案名稱至剪貼簿</value>
+  </data>
   <data name="ContextMenuCopyPath" xml:space="preserve">
     <value>複製完整路徑至剪貼簿</value>
   </data>
@@ -200,6 +203,9 @@
   </data>
   <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
     <value>無法複製檔案。</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFileName" xml:space="preserve">
+    <value>無法複製檔案名稱。</value>
   </data>
   <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
     <value>無法複製路徑。</value>
