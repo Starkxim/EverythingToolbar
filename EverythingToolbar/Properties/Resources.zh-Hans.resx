@@ -651,20 +651,29 @@
   <data name="SettingsSearchIcon" xml:space="preserve">
     <value>搜索图标</value>
   </data>
+  <data name="SettingsSearchIconLight" xml:space="preserve">
+    <value>浅色</value>
+  </data>
+  <data name="SettingsSearchIconDark" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="SettingsSearchIconBlue" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
   <data name="SettingsSearchIconHelp" xml:space="preserve">
-    <value>更改任务栏图标的样式 (需要重新启动文件管理器)</value>
+    <value>更改任务栏图标样式（需要重启 Windows 资源管理器）</value>
   </data>
   <data name="SettingsTaskbarWindow" xml:space="preserve">
-    <value>Show search box</value>
+    <value>显示搜索框</value>
   </data>
   <data name="SettingsTaskbarWindowHelp" xml:space="preserve">
-    <value>Show a search box on the taskbar</value>
+    <value>在任务栏上显示搜索框</value>
   </data>
   <data name="SettingsTaskbarWindowAlignment" xml:space="preserve">
-    <value>Search box alignment</value>
+    <value>搜索框对齐方式</value>
   </data>
   <data name="SettingsTaskbarWindowAlignmentHelp" xml:space="preserve">
-    <value>Controls the search box alignment on the taskbar</value>
+    <value>设置搜索框在任务栏上的对齐方式</value>
   </data>
   <data name="SettingsTaskbarWindowAlignmentLeft" xml:space="preserve">
     <value>靠左</value>
@@ -673,19 +682,19 @@
     <value>靠右</value>
   </data>
   <data name="SettingsTaskbarWindowUnsupported" xml:space="preserve">
-    <value>The search box requires the original Windows 11 taskbar. When using ExplorerPatcher or StartAllBack, use the deskband instead.</value>
+    <value>搜索框仅支持原生 Windows 11 任务栏。若使用 ExplorerPatcher 或 StartAllBack，请改用 Deskband 模式。</value>
   </data>
   <data name="SettingsTaskbarIcon" xml:space="preserve">
-    <value>Taskbar icon</value>
+    <value>任务栏图标</value>
   </data>
   <data name="SettingsTaskbarSearchBox" xml:space="preserve">
-    <value>Taskbar search box</value>
+    <value>任务栏搜索框</value>
   </data>
   <data name="SettingsTaskbarIconStatusPinned" xml:space="preserve">
-    <value>Pinned to taskbar</value>
+    <value>已固定到任务栏</value>
   </data>
   <data name="SettingsTaskbarIconStatusNotPinned" xml:space="preserve">
-    <value>Not pinned to taskbar</value>
+    <value>未固定到任务栏</value>
   </data>
   <data name="SettingsFilterOrder" xml:space="preserve">
     <value>筛选器顺序</value>

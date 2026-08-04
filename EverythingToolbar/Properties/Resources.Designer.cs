@@ -1264,6 +1264,24 @@ namespace EverythingToolbar.Properties {
                 return ResourceManager.GetString("SettingsSearchIcon", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Blue.
+        /// </summary>
+        public static string SettingsSearchIconBlue {
+            get {
+                return ResourceManager.GetString("SettingsSearchIconBlue", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Dark.
+        /// </summary>
+        public static string SettingsSearchIconDark {
+            get {
+                return ResourceManager.GetString("SettingsSearchIconDark", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Changes the style of the taskbar icon (requires explorer restart).
@@ -1271,6 +1289,15 @@ namespace EverythingToolbar.Properties {
         public static string SettingsSearchIconHelp {
             get {
                 return ResourceManager.GetString("SettingsSearchIconHelp", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Light.
+        /// </summary>
+        public static string SettingsSearchIconLight {
+            get {
+                return ResourceManager.GetString("SettingsSearchIconLight", resourceCulture);
             }
         }
         

@@ -59,19 +59,19 @@ namespace EverythingToolbar.Launcher.Settings
         [
             new()
             {
-                DisplayName = "Light",
+                DisplayName = Res.SettingsSearchIconLight,
                 IconPath = "pack://siteoforigin:,,,/Icons/Dark.ico",
                 Value = "Icons/Dark.ico",
             },
             new()
             {
-                DisplayName = "Dark",
+                DisplayName = Res.SettingsSearchIconDark,
                 IconPath = "pack://siteoforigin:,,,/Icons/Light.ico",
                 Value = "Icons/Light.ico",
             },
             new()
             {
-                DisplayName = "Blue",
+                DisplayName = Res.SettingsSearchIconBlue,
                 IconPath = "pack://siteoforigin:,,,/Icons/Medium.ico",
                 Value = "Icons/Medium.ico",
             },
