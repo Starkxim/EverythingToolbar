@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>رونوشت</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>رونوشت کل نام به بریده‌دان</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>رونوشت مسیر کامل به بریده‌دان</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>برش</value>

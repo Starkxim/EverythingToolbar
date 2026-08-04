@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Sao Chép</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Sao chép tên đầy đủ vào bộ nhớ tạm</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Sao chép đường dẫn đầy đủ vào bộ nhớ tạm</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Cắt</value>

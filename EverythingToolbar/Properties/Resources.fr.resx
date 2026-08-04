@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Copier</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Copier le nom complet dans le presse-papiers</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Copier le chemin complet dans le presse-papiers</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Couper</value>

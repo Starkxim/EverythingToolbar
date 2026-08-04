@@ -129,8 +129,8 @@
   <data name="ContextMenuCopyFileName" xml:space="preserve">
     <value>Copy File Name to Clipboard</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Copy Full Name to Clipboard</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Copy Full Path to Clipboard</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Cut</value>

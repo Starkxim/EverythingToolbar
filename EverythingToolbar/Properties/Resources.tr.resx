@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopyala</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Dosya ismini panoya kopyala</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Tam yolu panoya kopyala</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Kes</value>

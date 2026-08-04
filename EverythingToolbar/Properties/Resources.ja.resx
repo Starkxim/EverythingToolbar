@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>コピー</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>完全名をクリップボードにコピー</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>完全なパスをクリップボードにコピー</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>切り取り</value>

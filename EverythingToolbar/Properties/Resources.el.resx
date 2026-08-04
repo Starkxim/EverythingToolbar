@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Αντιγραφή</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Αντιγραφή πλήρους ονόματος στο πρόχειρο</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Αντιγραφή πλήρους διαδρομής στο πρόχειρο</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Αποκοπή</value>

@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>كۆچۈرۈش</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>تولۇق نامىنى كېسىش تاختىسىغا كۆچۈرۈش</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>تولۇق يولىنى كېسىش تاختىسىغا كۆچۈرۈش</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>كېسىش</value>

@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopiëren</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Kopieer de volledige naam naar het klembord</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Volledig pad naar het klembord kopiëren</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Knippen</value>

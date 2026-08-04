@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Copiere</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Copiază Întreg Numele în Clipboard</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Copiază calea completă în clipboard</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Tăiere</value>

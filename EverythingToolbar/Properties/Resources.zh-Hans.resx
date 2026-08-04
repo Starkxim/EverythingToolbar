@@ -129,8 +129,8 @@
   <data name="ContextMenuCopyFileName" xml:space="preserve">
     <value>复制文件名到剪贴板</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>复制完整名称到剪贴板</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>复制完整路径到剪贴板</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>剪切</value>

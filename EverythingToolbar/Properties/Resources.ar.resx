@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>نسخ ملف</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>إنسخ الاسم الكامل إلى الحافظة</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>نسخ المسار الكامل إلى الحافظة</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>قص</value>

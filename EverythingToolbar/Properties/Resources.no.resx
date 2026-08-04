@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopier</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Kopier navn til utklippstavlen</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Kopier hele filbanen til utklippstavlen</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Klipp ut</value>

@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Másolás</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Fájlnév másolása a vágólapra</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Teljes elérési út másolása a vágólapra</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Kivágás</value>

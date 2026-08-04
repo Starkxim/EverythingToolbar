@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>복사</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>클립보드에 전체 이름 복사</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>전체 경로를 클립보드에 복사</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>잘라내기</value>

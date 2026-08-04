@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Cópia</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Copiar o Nome Completo para a Área de Transferência</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Copiar o caminho completo para a área de transferência</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Cortar</value>

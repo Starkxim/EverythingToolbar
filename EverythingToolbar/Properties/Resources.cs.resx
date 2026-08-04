@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopírovat</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Kopírovat celý název do schránky</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Kopírovat celou cestu do schránky</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Vyjmout</value>

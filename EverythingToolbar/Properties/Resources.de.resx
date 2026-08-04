@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Kopieren</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Pfad mit Namen kopieren</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Vollständigen Pfad in die Zwischenablage kopieren</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Ausschneiden</value>

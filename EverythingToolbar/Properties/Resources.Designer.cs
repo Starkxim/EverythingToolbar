@@ -177,11 +177,11 @@ namespace EverythingToolbar.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy Full Name to Clipboard.
+        ///   Looks up a localized string similar to Copy Full Path to Clipboard.
         /// </summary>
-        public static string ContextMenuCopyFullName {
+        public static string ContextMenuCopyPath {
             get {
-                return ResourceManager.GetString("ContextMenuCopyFullName", resourceCulture);
+                return ResourceManager.GetString("ContextMenuCopyPath", resourceCulture);
             }
         }
         

@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>Копіювати</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>Скопіювати повну назву в буфер обміну</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>Скопіювати повний шлях до буфера обміну</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>Вирізати</value>

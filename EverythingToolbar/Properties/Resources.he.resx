@@ -126,8 +126,8 @@
   <data name="ContextMenuCopyFile" xml:space="preserve">
     <value>העתקה</value>
   </data>
-  <data name="ContextMenuCopyFullName" xml:space="preserve">
-    <value>העתקת שם מלא ללוח</value>
+  <data name="ContextMenuCopyPath" xml:space="preserve">
+    <value>העתקת הנתיב המלא ללוח</value>
   </data>
   <data name="ContextMenuCut" xml:space="preserve">
     <value>גזירה</value>
