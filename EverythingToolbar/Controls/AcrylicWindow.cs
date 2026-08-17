@@ -137,6 +137,7 @@ namespace EverythingToolbar.Controls
 
             Background = Brushes.Transparent;
 
+            Loaded += OnWindowLoaded;
             SourceInitialized += OnSourceInitialized;
             Closed += OnClosed;
 
@@ -161,6 +162,12 @@ namespace EverythingToolbar.Controls
             {
                 hwndSource.CompositionTarget.BackgroundColor = GetThemeBackgroundColor();
             }
+        }
+
+        private void OnWindowLoaded(object sender, RoutedEventArgs e)
+        {
+            Loaded -= OnWindowLoaded;
+            ApplyAcrylicEffect();
         }
 
         private void OnSourceInitialized(object? sender, EventArgs e)
