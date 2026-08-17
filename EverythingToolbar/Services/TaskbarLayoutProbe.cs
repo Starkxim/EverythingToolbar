@@ -9,10 +9,10 @@ using AutomationCondition = System.Windows.Automation.Condition;
 namespace EverythingToolbar.Services
 {
     /// <summary>
-    /// The bounds of the taskbar's icon cluster (Start button plus the task buttons) and the elements a
-    /// window placed on the taskbar must not overlap, all in screen pixels.
+    /// The bounds of the visible taskbar frame, its icon cluster (Start button plus the task buttons),
+    /// and the elements a window placed on the taskbar must not overlap, all in screen pixels.
     /// </summary>
-    internal readonly record struct TaskbarLayout(Rect? IconCluster, IReadOnlyList<Rect> Obstacles)
+    internal readonly record struct TaskbarLayout(Rect? FrameBounds, Rect? IconCluster, IReadOnlyList<Rect> Obstacles)
     {
         public bool IsMeasurable => IconCluster.HasValue || Obstacles.Count > 0;
     }
@@ -43,6 +43,7 @@ namespace EverythingToolbar.Services
         public TaskbarLayout Measure(IntPtr taskbarHandle, bool refreshElements)
         {
             var obstacles = new List<Rect>();
+            Rect? frameBounds = null;
             Rect? iconCluster = null;
 
             try
@@ -59,6 +60,10 @@ namespace EverythingToolbar.Services
                 var frame = GetFrame(taskbarHandle, taskbar);
                 if (frame != null)
                 {
+                    var frameRect = frame.Current.BoundingRectangle;
+                    if (!frameRect.IsEmpty && frameRect.Height > 0)
+                        frameBounds = frameRect;
+
                     double maxIconWidth = taskbar.Current.BoundingRectangle.Width * MaxIconClusterChildWidthRatio;
 
                     foreach (
@@ -84,7 +89,7 @@ namespace EverythingToolbar.Services
                 Logger.Warn(ex, "Could not measure the taskbar layout");
             }
 
-            return new TaskbarLayout(iconCluster, obstacles);
+            return new TaskbarLayout(frameBounds, iconCluster, obstacles);
         }
 
         /// <summary>

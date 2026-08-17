@@ -316,12 +316,21 @@ namespace EverythingToolbar
 
             int width = Math.Min(available, (int)(MaxWidgetWidthDip * dpiScale));
             int taskbarHeight = taskbarRect.bottom - taskbarRect.top;
+            int contentHeight =
+                layout.FrameBounds is { } frameBounds ? (int)Math.Round(frameBounds.Height) : taskbarHeight;
             int verticalMargin = (int)(WidgetVerticalMarginDip * dpiScale);
-            int height = Math.Max(taskbarHeight - 2 * verticalMargin, (int)(MinWidgetHeightDip * dpiScale));
+            int height = Math.Max(contentHeight - 2 * verticalMargin, (int)(MinWidgetHeightDip * dpiScale));
+            int top =
+                layout.FrameBounds is { } visibleFrame
+                    ? ToClientY(
+                        taskbarHandle,
+                        (int)Math.Round(visibleFrame.Top + (visibleFrame.Height - height) / 2)
+                    )
+                    : (taskbarHeight - height) / 2;
 
             return new WidgetBounds(
                 leftOnCentered ? gapLeft : gapRight - width,
-                (taskbarHeight - height) / 2,
+                top,
                 width,
                 height
             );
@@ -332,6 +341,13 @@ namespace EverythingToolbar
             var pt = new System.Drawing.Point(screenX, 0);
             PInvoke.ScreenToClient((HWND)taskbarHandle, ref pt);
             return pt.X;
+        }
+
+        private static int ToClientY(IntPtr taskbarHandle, int screenY)
+        {
+            var pt = new System.Drawing.Point(0, screenY);
+            PInvoke.ScreenToClient((HWND)taskbarHandle, ref pt);
+            return pt.Y;
         }
     }
 }
